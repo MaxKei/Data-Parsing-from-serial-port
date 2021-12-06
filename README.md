@@ -9,7 +9,7 @@ you'll be needing the following:
 * Excel (to check if the stored data is sorted and placed in correctly)
 
 The Arduino coding part is taken from :
-https://github.com/ESP-EOS/ESP32-WiFi-Sniffer
-https://blog.podkalicki.com/esp32-wifi-sniffer/
+* https://github.com/ESP-EOS/ESP32-WiFi-Sniffer
+* https://blog.podkalicki.com/esp32-wifi-sniffer/
 
 
