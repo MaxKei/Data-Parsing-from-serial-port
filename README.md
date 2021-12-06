@@ -1,5 +1,8 @@
 # Analyzing-Data-from-USB-port
 
+A simple program that is intended to work together Arduino's data from the serial monitor.
+It's programmed so that the data from the Arduino is stored on the PC in a CSV and Excel file.
+
 
 Files:
 * main.py = the code
