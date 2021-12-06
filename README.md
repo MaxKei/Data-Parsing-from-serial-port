@@ -1,4 +1,4 @@
-# Analyzing-Data-from-USB-port @ By Max & Mansour
+# Analyzing-Data-from-USB-port
 
 In order for this program to work and to fully functionate, 
 you'll be needing the following: 
