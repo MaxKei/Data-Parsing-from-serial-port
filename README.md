@@ -1,5 +1,12 @@
 # Analyzing-Data-from-USB-port
 
+
+Files:
+* main.py = the code
+* data.csv = is the sorted data that's saved into a CSV file
+* data.xlxs = is the sorted data that's saved into a Excel file.
+
+
 In order for this program to work and to fully functionate, 
 you'll be needing the following: 
 
