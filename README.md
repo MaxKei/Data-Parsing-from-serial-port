@@ -1,9 +1,9 @@
-# Analyzing-Data-from-USB-port
+# Analyzing, Filtering, Parsing data from serial port
 
-A simple program that is intended to work together Arduino's data from the serial monitor.
-It's programmed so that the data from the Arduino serial monitor is stored onto the PC in a CSV and Excel file.
-It's also functioning in a way, that all the data is calculated so that the program can give a number of how many unique devices are nearby.
-
+A simple program that is intended to work together with the microcontroler ESP32, WiFi Sniffer.
+ESP32 network-interface that can do data in serial communication. 
+Data is filtered and parsed data is stored onto the PC as a CSV and Excel file.
+When it's finished sorting and storing data, the program calculates all MAC Addresses and gives a estimated number of how many unique devices are nearby.
 
 Files:
 * main.py = initialize whole program
