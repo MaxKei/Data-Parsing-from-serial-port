@@ -2,8 +2,8 @@
 
 A simple program that is intended to work together with the microcontroler ESP32, WiFi Sniffer.
 ESP32 network-interface that can do data in serial communication. 
-Data is filtered and parsed data is stored onto the PC as a CSV and Excel file.
-When it's finished sorting and storing data, the program calculates all MAC Addresses and gives a estimated number of how many unique devices are nearby.
+Data is then filtered and parsed data is stored onto the PC as a CSV and Excel file.
+When it's finished sorting data, the program calculates all MAC Addresses and gives a estimated number of how many unique devices are nearby.
 
 Files:
 * main.py = initialize whole program
