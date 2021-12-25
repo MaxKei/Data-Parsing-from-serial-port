@@ -14,7 +14,7 @@ import pandas as pd
 
 def SaveDatatoCSV():
     # Configuration for serial port
-    # COM4 is a specific USB-port
+    # COM4 is a specific communication-port (data transmission in serial port)
     # Baudrate optimized for Arduino configuration
     serialPort = serial.Serial(port="COM4", baudrate=115200,
                                bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
@@ -64,8 +64,6 @@ def SaveDatatoCSV():
                 i += 1
                 if timePassed > totalSeconds:
                     break;
-
-
 
     fileContent = pd.read_csv("data.csv")
     fileContent.to_excel("data.xlsx", index=None, header=True)
