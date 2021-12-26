@@ -45,7 +45,7 @@ def SaveDatatoCSV():
                 # Read data out of the buffer until a carraige return / new line is found
                 try:
                     line = serialPort.readline()
-                    serialString = str(line, "ascii") #coverting from bytes to string
+                    serialString = str(line, "ascii") #converting from bytes to string
                     serialSplit = serialString.split(' ')
                 except:
                     print("Readline somehow messed up with the serial input")
