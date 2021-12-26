@@ -36,7 +36,7 @@ def SaveDatatoCSV():
         dw.writeheader()
         i=0
 
-        #
+        # Looping the data and loopoing the desired parsed data
         while True:
 
             # Wait until there is data waiting in the serial buffer
