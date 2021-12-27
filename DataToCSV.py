@@ -62,6 +62,3 @@ def SaveDatatoCSV():
                 timePassed = currentTime - startTime;
                 if timePassed > totalSeconds:
                     break;
-
-    fileContent = pd.read_csv("data.csv")
-    fileContent.to_excel("data.xlsx", index=None, header=True)
