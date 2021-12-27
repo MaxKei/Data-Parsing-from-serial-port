@@ -34,7 +34,6 @@ def SaveDatatoCSV():
         fieldnames=['Timestamp', 'ID']
         dw = csv.DictWriter(file, delimiter=',', fieldnames=fieldnames)
         dw.writeheader()
-        i=0
 
         # Looping the data and loopoing the desired parsed data
         while True:
