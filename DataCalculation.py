@@ -2,12 +2,8 @@
 DataCalculation.py : is made to read the sorted data, calculate and
 count how many unique devices are nearby, which is later imported into a txt. file (device_count.txt)
 """
-
 import csv
 from datetime import datetime
-
-# Remove unique ids through a timeout parameter
-timeout_seconds = 30
 
 def SaveDeviceCountToTXT():
     count = 0
