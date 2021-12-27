@@ -60,7 +60,6 @@ def SaveDatatoCSV():
                 dw.writerow({"Timestamp": timeStamp, "ID": serialParse})
                 currentTime = time.time();
                 timePassed = currentTime - startTime;
-                i += 1
                 if timePassed > totalSeconds:
                     break;
 
