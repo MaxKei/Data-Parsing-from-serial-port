@@ -16,7 +16,7 @@ Files:
 
 
 In order for this program to work and to fully function, 
-you'll are required to have the following: 
+it's required to have the following: 
 
 * IDE: Arduino(c++) and PyCharm(Python)
 * Libraries: serial, csv, datetime, pandas
